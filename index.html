@@ -13,80 +13,150 @@
 </head>
 
 <body class="bg-gray-100">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!--COMPONENT 1-->
+        <div class="mx-auto bg-white">
 
-        <div class="relative flex flex-wrap items-center justify-between w-full bg-white p-7 shrink-0"> <!--bg-white and p-7-->
-            <div>
-                <img class="h-8" src="assets/component-1/navigation/cache-bank-logo.png">
-            </div>
-
-            <div class="hidden md:flex items-center justify-between gap-12 text-black">
-
-                <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-gray-900">Product</a>
+            <div class="relative flex flex-wrap items-center justify-between w-full bg-white py-7 shrink-0">
                 
-                <a href="avascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-gray-900">Features</a>
-                
-                <a href="avascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-gray-900">Get Started</a>
-                
-                <a href="avascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-gray-900">Contact</a>
-            </div>
-
-            <div class="hidden md:flex items-center gap-8">
-                <button class="text-sm font-normal text-dark-grey-800 hover:text-grey-900">Log In</button>
-
-                <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
-            </div>
-
-            
-            <button class="md:hidden p-4" id="mobile-menu-toggle">
-                <svg
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    class="h-6 w-6"
-                    fill="none"
-                >
-                    <g clip-path="url(#clip0_429_11066)">
-                    <path
-                        d="M3 6.00092H21M3 12.0009H21M3 18.0009H21"
-                        stroke="#292929"
-                        stroke-width="2.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                <div>
+                    
+                    <img class="h-8"
+                        src="https://loopple.s3.eu-west-3.amazonaws.com/images/6wjH3M3DDKVZrZYDViFptLEOoeHnZxEgC3lorweP.png"
                     />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_429_11066">
-                            <rect
+
+                </div>
+
+                <div class="hidden md:flex items-center justify-between gap-12 text-black">
+                    
+                    <a 
+                        href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
+
+                        > Product
+
+                    </a>
+                    
+                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
+
+                        > Features
+                        
+                    </a>
+                    
+                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
+
+                        > Get Strated
+
+                    </a>
+                    
+                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
+
+                        > Contact
+
+                    </a>
+
+                </div>
+
+                <div class="hidden md:flex items-center gap-8">
+                    
+                    <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900"
+
+                        > Log In
+
+                    </button>
+                    
+                    <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500"
+
+                        > Sign Up
+
+                    </button>
+
+                </div>
+
+                <button class="md:hidden p-4" id="mobile-menu-toggle">
+
+                    <svg
+
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        class="h-6 w-6"
+                        fill="none"
+                        >
+                        <g clip-path="url(#clip0_429_11066)">
+
+                            <path
+                                d="M3 6.00092H21M3 12.0009H21M3 18.0009H21"
+                                stroke="#292929"
+                                stroke-width="2.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+
+                        </g>
+
+                        <defs>
+
+                            <clipPath id="clip0_429_11066">
+
+                                <rect
                                 width="24"
                                 height="24"
                                 fill="white"
                                 transform="translate(0 0.000915527)"
-                            />
-                        </clipPath>
-                    </defs>
-                </svg>
-            </button>
+                                />
 
-            
-            <div class="absolute flex md:hidde flex-col items-start shadow-main justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full">
+                            </clipPath>
 
-                <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-gray-900">Product</a>
-                
-                <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-gray-900">Features</a>
-                
-                <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-gray-900">Get Started</a>
-                
-                <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-gray-900">Contact</a>
-                
-                
-                    <button class="text-sm font-normal text-dark-grey-800 hover:text-grey-900">Log In</button>
-    
-                    <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
-                
-            </div>
+                        </defs>
 
-        </div>
+                    </svg>
+
+                </button>
+
+                <div class="absolute flex md:hidden flex-col items-start shadow-main justify-center w-full gap-3 overflow-hidden bg-white max-h-0 top-full" id="mobile-menu">
+                    
+                    <a 
+                        href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
+
+                        > Product
+
+                    </a>
+                    
+                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
+
+                        > Features
+
+                    </a>
+                    
+                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
+
+                        > Get Started
+
+                    </a>
+                    
+                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
+
+                        > Contact
+
+                    </a>
+
+                    <button class="flex items-center px-4 py-2 text-sm font-normal text-black "
+
+                        > Log In
+
+                    </button>
+                        
+                    <button class="flex items-center px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500"
+
+                        > Sign Up
+
+                    </button>
+
+                </div>
+
+            </div>    
+    </div>
+
 
       <!--Component 2: Hero and Endorsments-->
       <!--HERO--> 
