@@ -1,5 +1,8 @@
 Portfolio Piece
 
+Slide Presentation link: https://docs.google.com/presentation/d/1XFQi0nraNmSMZ_pVA-9IE25aH6aMhdfAyVGVi2hfBIE/edit?usp=sharing
+Loom Video: https://www.loom.com/share/20178adbf2d449b8a0090c60bf4f957d?sid=34280f56-1974-4075-8040-3db2a413283b
+
 
 Reflections
 Throughout the development process, I gained valuable insights into the intricacies of CSS styling and layout. Experimenting with different techniques that i observed in the videos provided allowed me to refine my skills and deepen my understanding of web design principles.
